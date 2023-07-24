@@ -1,0 +1,47 @@
+.container {
+  width: 62.5%;
+  margin: 0 auto;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.contato-rede-social {
+  display: inline-block;
+  justify-content: space-between;
+  padding: 2rem;
+  align-items: center;
+}
+
+.foto {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+h4 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: gray;
+  opacity: 0.9;
+}
+
+.link-contato {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.img-linkedin {
+  margin-top: 50px;
+  width: 65px;
+  height: 65px;
+}
+.img-github {
+  width: 85px;
+  height: 85px;
+}

@@ -1,0 +1,109 @@
+.container {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0 2%;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+li {
+  display: flex;
+  justify-content: left;
+  padding: 10px;
+  font-size: 1rem;
+  margin-left: 100px;
+  color: #fff;
+  max-width: 300px;
+  height: 30px;
+  text-transform: uppercase;
+}
+
+li span {
+  color: #fff;
+  opacity: 0.6;
+}
+
+h1 {
+  opacity: 0.6;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin: 2rem;
+  text-align: center;
+  border: none;
+}
+
+h3::after {
+  content: "";
+  height: 4px;
+  width: 30px;
+  margin: 10px auto;
+  background-color: rgb(61, 54, 54);
+  display: block;
+}
+
+h5 {
+  padding-top: 30px;
+  margin: 20px auto 5px auto;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+span {
+  color: orangered;
+}
+
+.card {
+  width: 100vw;
+  margin: 1rem;
+  padding: 2rem;
+}
+
+.card p {
+  text-align: center;
+  padding: 1rem;
+}
+
+.card img {
+  border: 1px solid rgb(61, 54, 54);
+}
+
+.card img:hover {
+  box-shadow: 8px 10px 4px rgb(131, 128, 128);
+  border-radius: 0.4rem;
+}
+
+/*
+.rotate-container {
+  font-size: 40px;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma;
+  font-weight: 700;
+  display: grid;
+  place-items: center;
+}
+
+.rotate {
+  position: relative;
+  color: gray;
+  font-size: 80px;
+  filter: blur(2px) contrast(4);
+  animation: rotateAnimation 6s infinite; /* Adicionando a animação à classe .rotate 
+
+}
+
+@keyframes rotateAnimation {
+  0% {
+    transform: rotate(0deg); 
+  }
+  100% {
+    transform: rotate(360deg); 
+  }
+}
+*/
